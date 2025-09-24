@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:#121212;
+}
+header{
+    padding: 40px 100px;
+    background: #121212;
+    font-size: 18px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .logo{
+    width: 65px;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navigation ul li a{
+    color: white;
+}
+.context .text p{
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+}
+main{
+    color: white;
+}
+.aviso {
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
